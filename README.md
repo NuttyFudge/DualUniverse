@@ -4,6 +4,8 @@
 - Bet Collector
 - Industry ROI calculator/Excel Doc
 - Race Lua
+- Factory Lua
+- Logic Puzzle?
 
 # Resources and other useful LUA:
 
