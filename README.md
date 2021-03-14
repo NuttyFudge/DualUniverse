@@ -1,34 +1,37 @@
 # DualUniverse
 
-# TODO List
+# Resources
 
+https://www.reddit.com/r/DualUniverse/comments/izeseo/list_of_html_tags_supported_and_not_supported_by/
+
+# TODO List
 ## Schematic Shopping List:
- *) Warp Cell
+[] Warp Cell
 
 ## Factory:
- *) Virtual Scaffolding
- *) Remote Controller
- *) Laser
- *) Relay, Vertical Light S & XS
- *) Delay Lin
- *) Transfer Units
- *) Warp Cell
- *) Space Engine M
+[] Transfer Units
+[] Warp Cell
+[] Virtual Scaffolding
+[] Remote Controller
+[] Lasers
+[] Relay, Vertical Light S & XS
+[] Delay Line
+[] Adv Mil Space Engine M
  
 ## Dispencers:
- * Ore
- * Pures
- * HoneyComb
- * Lights
- * Engines
- * Hovers
- * Airbreak
- * Containers
- * Tanks
- * Scanners S, L 
- * Transfer Unit
- * Adjuster/Stab/Wing
- * Electronics
+[] Ore
+[] Pures
+[] HoneyComb
+[]  Lights
+[] Engines
+[] Hovers
+[]  Airbreak
+[] Containers
+[] Tanks
+[] Scanners S, L 
+[] Transfer Unit
+[] Adjuster/Stab/Wing
+[] Electronics
 
 
 # RGB Controller 
