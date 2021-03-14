@@ -8,6 +8,12 @@
 
 
 # RGB Controller 
+## Setup
+- Link Detection Zones L to OR Gate
+- Link OR Gate to Relay
+- Link Relay to Programming Boards
+- Link Programming Boards to Lights
+
 ## system.start()
 
 ```lua
