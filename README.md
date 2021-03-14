@@ -15,6 +15,8 @@
 
 # BOAT LUA 
 - Add `Nav.axisCommandManager:setTargetGroundAltitude(0.1)` under system.actionStop(up)
+- Remove any lifting bodies such as wings for optimal results
+- Tilt the front of any engines towards the ground if lift is still to high
 
 # Magic Carpet (LUA for holding altitude)
 ## Setup
