@@ -1,5 +1,36 @@
 # DualUniverse
 
+# TODO List
+
+## Schematic Shopping List:
+ *) Warp Cell
+
+## Factory:
+ *) Virtual Scaffolding
+ *) Remote Controller
+ *) Laser
+ *) Relay, Vertical Light S & XS
+ *) Delay Lin
+ *) Transfer Units
+ *) Warp Cell
+ *) Space Engine M
+ 
+## Dispencers:
+ * Ore
+ * Pures
+ * HoneyComb
+ * Lights
+ * Engines
+ * Hovers
+ * Airbreak
+ * Containers
+ * Tanks
+ * Scanners S, L 
+ * Transfer Unit
+ * Adjuster/Stab/Wing
+ * Electronics
+
+
 # RGB Controller 
 ## system.start()
 
