@@ -1,8 +1,9 @@
 # DualUniverse
 
 # Active Projects
-- Bet Collector (Angry Dad)
+- Bet Collector
 - Industry ROI calculator/Excel Doc
+- Race Lua
 
 # Resources and other useful LUA:
 
