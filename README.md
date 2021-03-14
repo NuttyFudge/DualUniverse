@@ -30,7 +30,7 @@
 
 ## Unit Start Function
 - Add to the exsting LUA
-```
+```lua
 -- Check for default
 local def_hover_height = 1 --export
 local always_default = True --export
@@ -48,7 +48,7 @@ Nav.axisCommandManager:setTargetGroundAltitude(hover)
 ```
 ## Up Button, Pressed Function
 - Add new function under the UP button Slot
-```
+```lua
 local hover = databank.getIntValue("hover")
 hover = hover + 1   
 databank.setIntValue("hover", hover)
@@ -57,7 +57,7 @@ screen.setCenteredText("Vert Speed:"..hover)
 ```
 ## Down Button, Pressed Function
 - Add new function under the Down button Slot
-```
+```lua
 local hover = databank.getIntValue("hover")
 hover = hover - 1
 databank.setIntValue("hover", hover)
