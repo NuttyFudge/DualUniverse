@@ -13,7 +13,7 @@
 - https://raw.githubusercontent.com/RostCS/DU-FuelScreen/master/FuelManagement1.5.lua
 - https://github.com/DorianTheGrey/DU-DamageReport/blob/main/DamageReport_3_13.conf
 
-# Magic Carpet
+# Magic Carpet (LUA for holding altitude)
 ## Setup
 - Link Screen to Remote Controller (Slot Name : Screen)
 - Link Up button to Remote Controller (Slot Name : Up)
