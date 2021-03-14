@@ -13,6 +13,9 @@
 - https://raw.githubusercontent.com/RostCS/DU-FuelScreen/master/FuelManagement1.5.lua
 - https://github.com/DorianTheGrey/DU-DamageReport/blob/main/DamageReport_3_13.conf
 
+# BOAT LUA 
+- Add `Nav.axisCommandManager:setTargetGroundAltitude(0.1)` under system.actionStop(up)
+
 # Magic Carpet (LUA for holding altitude)
 ## Setup
 - Link Screen to Remote Controller (Slot Name : Screen)
