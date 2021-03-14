@@ -48,6 +48,14 @@ databank.setIntValue("hover", hover)
 Nav.axisCommandManager:setTargetGroundAltitude(hover)
 screen.setCenteredText("Vert Speed:"..hover)
 ```
+## Down Button, Pressed Function
+```
+local hover = databank.getIntValue("hover")
+hover = hover - 1
+databank.setIntValue("hover", hover)
+Nav.axisCommandManager:setTargetGroundAltitude(hover)
+screen.setCenteredText("Hover:"..hover)
+```
 
 # RGB Controller 
 ## Simple Setup
