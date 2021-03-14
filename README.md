@@ -13,6 +13,41 @@
 - https://raw.githubusercontent.com/RostCS/DU-FuelScreen/master/FuelManagement1.5.lua
 - https://github.com/DorianTheGrey/DU-DamageReport/blob/main/DamageReport_3_13.conf
 
+# Magic Carpet
+## Setup
+- Link Screen to Remote Controller (Slot Name : Screen)
+- Link Up button to Remote Controller (Slot Name : Up)
+- Link Down button to Remote Controller (Slot Name : Down)
+- Link DataBank to Remote Controller (Slot Name : Databank)
+
+## Unit Start Function
+- Add to the exsting LUA
+```
+-- Check for default
+local def_hover_height = 1 --export
+local always_default = True --export
+
+if not databank.hasKey("hover") or always_default then
+    screen.setCenteredText("Setting up")
+    databank.setIntValue("hover", def_hover_height)
+else
+    screen.setCenteredText("System Ready")
+end
+
+-- Load & Hover.
+local hover = databank.getIntValue("hover")
+Nav.axisCommandManager:setTargetGroundAltitude(hover)
+```
+
+
+## Up Button, Pressed Function
+```
+local hover = databank.getIntValue("hover")
+hover = hover + 1   
+databank.setIntValue("hover", hover)
+Nav.axisCommandManager:setTargetGroundAltitude(hover)
+screen.setCenteredText("Vert Speed:"..hover)
+```
 
 # RGB Controller 
 ## Simple Setup
