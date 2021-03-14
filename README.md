@@ -1,5 +1,9 @@
 # DualUniverse
 
+# Active Projects
+- Bet Collector (Angry Dad)
+- Industry ROI calculator/Excel Doc
+
 # Resources and other useful LUA:
 
 - https://www.reddit.com/r/DualUniverse/comments/izeseo/list_of_html_tags_supported_and_not_supported_by/
