@@ -8,7 +8,13 @@
 
 
 # RGB Controller 
-## Setup
+## Simple Setup
+- Link Manual Button to Relay
+- Link Relay to Programming Boards
+- Link Programming Boards to Lights
+- Edit Lua param: turn_off must be set to False
+
+## Advanced Setup
 - Link Detection Zones L to OR Gate
 - Link OR Gate to Relay
 - Link Relay to Programming Boards
