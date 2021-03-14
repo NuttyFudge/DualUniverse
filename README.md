@@ -41,6 +41,7 @@ Nav.axisCommandManager:setTargetGroundAltitude(hover)
 
 
 ## Up Button, Pressed Function
+- Add new function under the UP button Slot
 ```
 local hover = databank.getIntValue("hover")
 hover = hover + 1   
@@ -49,6 +50,7 @@ Nav.axisCommandManager:setTargetGroundAltitude(hover)
 screen.setCenteredText("Vert Speed:"..hover)
 ```
 ## Down Button, Pressed Function
+- Add new function under the Down button Slot
 ```
 local hover = databank.getIntValue("hover")
 hover = hover - 1
