@@ -28,9 +28,9 @@ end
 local turn_off = False --export Turn off when program board stops
 
 if turn_off then
-	light = {L1,L2,L3,L4,L5,L6,L7,L8,L9,L10}
-	for i=1,10 do
-    	light[i].deactivate()
+	light = {L1,L2,L3,L4,L5,L6,L7,L8,L9,L10}	
+	for i=1,10 do	
+    		light[i].deactivate()
 	end
 end
 ```
