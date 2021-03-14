@@ -14,12 +14,15 @@
 - https://github.com/DorianTheGrey/DU-DamageReport/blob/main/DamageReport_3_13.conf
 
 # BOAT LUA 
-- Add `Nav.axisCommandManager:setTargetGroundAltitude(0.1)` under system.actionStop(up)
+## Craft Setup
 - Remove any lifting bodies such as wings for optimal results
 - Tilt the front of any engines towards the ground if lift is still to high
 
+## LUA Setup
+- Add `Nav.axisCommandManager:setTargetGroundAltitude(0.1)` under system.actionStop(up)
+
 # Magic Carpet (LUA for holding altitude)
-## Setup
+## Logic Setup
 - Link Screen to Remote Controller (Slot Name : Screen)
 - Link Up button to Remote Controller (Slot Name : Up)
 - Link Down button to Remote Controller (Slot Name : Down)
@@ -43,8 +46,6 @@ end
 local hover = databank.getIntValue("hover")
 Nav.axisCommandManager:setTargetGroundAltitude(hover)
 ```
-
-
 ## Up Button, Pressed Function
 - Add new function under the UP button Slot
 ```
@@ -65,13 +66,13 @@ screen.setCenteredText("Hover:"..hover)
 ```
 
 # RGB Controller 
-## Simple Setup
+## Simple Logic Setup
 - Link Manual Button to Relay
 - Link Relay to Programming Boards
 - Link Programming Boards to Lights
 - Edit Lua param: `turn_off` must be set to False
 
-## Advanced Setup
+## Advanced Logic Setup
 - Link Detection Zones L to OR Gate
 - Link OR Gate to Relay
 - Link Relay to Programming Boards
