@@ -12,6 +12,7 @@
 - https://www.reddit.com/r/DualUniverse/comments/izeseo/list_of_html_tags_supported_and_not_supported_by/
 - https://raw.githubusercontent.com/RostCS/DU-FuelScreen/master/FuelManagement1.5.lua
 - https://github.com/DorianTheGrey/DU-DamageReport/blob/main/DamageReport_3_13.conf
+- https://docs.google.com/spreadsheets/d/1kAJQKvwfJgotXUfvKqtO_zre0cKzudq0anpDYpL68_I/edit?usp=sharing
 
 # BOAT LUA 
 ## Craft Setup
