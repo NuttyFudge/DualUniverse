@@ -1,7 +1,7 @@
 # DualUniverse
 
 # Active Projects
-- Bet Collector
+- Bet Collector (for AD)
 - Industry ROI calculator/Excel Doc
 - Race Lua
 - Factory Lua
