@@ -16,7 +16,8 @@ Here are my tips & thoughts on selling from dispensers.
 14) Default options are crap. Limit 1 per, 
 15) A batch of whatever you sell is stored in the dispencer, consider the costs of this batch.
 
-Todo: 
+WIP:
+
 Thoughts on blueprints (transfering rights, skill boosts, copy/edit permissions). 
 
 Example RDMS:
@@ -24,6 +25,7 @@ Example RDMS:
 Example Setup:
 
 Experiment #1 : Selling empty (to be a dontation, admission fee, bet). 
-Experiment #2 : Using a detection zone to log 
+Experiment #2 : Using a detection zone to log players (or trap them).
+Experiment #3 : Use ammo containers instead of normal containers (lol, why Briggenti). 
 
 Helpful LUA:
