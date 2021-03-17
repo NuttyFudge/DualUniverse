@@ -5,6 +5,7 @@
 - Industry ROI calculator/Excel Doc
 - Race Lua
 - Factory Lua
+- Script to maintain custom auto config files from github.
 - Logic Puzzle?
 
 # Resources and other useful LUA:
