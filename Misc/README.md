@@ -1,5 +1,6 @@
 ## Schematic Shopping List:
-- [] Warp Cell
+- [] Warp Cell (and sub components)
+- [] Basic Injector x2
 
 ## Factory:
 - [] Transfer Units
