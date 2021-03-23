@@ -70,7 +70,7 @@ Early Game Things to avoid:
 
 * Buying while in VR
 * Flying without radar
-* Harvesting rocks
+* Harvesting rocks (15000 liters of hour per hour vs 250,000 liters of ore per hour)
 * Santurary Moon
 * Refining Ore and Industry with out talents.
 * PvP space
