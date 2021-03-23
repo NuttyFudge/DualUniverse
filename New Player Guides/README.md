@@ -9,6 +9,14 @@ Things to do in Dual Universe:
 * Role-Play: PVP, Rescue missions, Taxi, Hauling
 * Role-Play: Voxel Art
 
+Ways to Make Money:
+
+* Selling Ore
+* Selling Scans
+* Selling Art, LUA, Ships (Blueprints or Tokenized)
+* Producing and Selling goods
+* Trading on the Market
+
 Places to go:
 
 * Voxel Libraries
@@ -36,7 +44,7 @@ Late Game:
 * Weapon specialization
 * Radar specialization
 
-Overview of basic items:
+Basic items (Tier 1 & Tier 2 aka Basic and Uncommon):
 
 * Territory Units
 * Cores (Dynamic vs Static vs Space)
@@ -44,9 +52,23 @@ Overview of basic items:
 * Flight Elements (engines, adjustors, controller, radar)
 * Seats vs Urinals
 * Honeycomb
+* Decoratitons
+* Force Fields
+
+Advanced items (Tier 3 aka Advanced):
+
+* Territory Scanners
+* VR Stations, VR POD
+* Advanced Engines
+
+Late game items (Tier 4 and Tier 5 aka Rare):
+* AGG
+* Warp Beacon
+* Rare Engines
 
 Early Game Things to avoid:
 
+* Buying while in VR
 * Harvesting rocks
 * Santurary Moon
 * Refining materials
