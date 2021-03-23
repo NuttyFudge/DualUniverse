@@ -71,7 +71,7 @@ Early Game Things to avoid:
 * Buying while in VR
 * Harvesting rocks
 * Santurary Moon
-* Refining materials
+* Refining Ore and Industry with out talents.
 * PvP space
 * Speed limits in atmo
 * Unbalanced ships (overweight, lack of adjustors)
