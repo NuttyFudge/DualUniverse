@@ -18,12 +18,12 @@ Late Game:
 
 Overview of basic items:
 
-1) Territory Units
-2) Cores (Dynamic vs Static vs Space)
-3) Storage (Container vs Tank vs Ammo)
-4) Flight Elements (engines, adjustors, controller, radar)
-5) Seats vs Urinals
-6) Honeycomb
+* Territory Units
+* Cores (Dynamic vs Static vs Space)
+* Storage (Container vs Tank vs Ammo)
+* Flight Elements (engines, adjustors, controller, radar)
+* Seats vs Urinals
+* Honeycomb
 
 Early Game Things to avoid:
 
@@ -34,9 +34,10 @@ Early Game Things to avoid:
 * Speed limits in atmo
 * Unbalanced ships (overweight, lack of adjustors)
 
-
 Ship building:
 
 * Entering build mode
 * Skill Handling
-
+* Hot keys
+* Adjustor Placement
+* Container Hub Placement
