@@ -1,3 +1,20 @@
+Things to do in Dual Universe:
+
+* Mining & Scanning for Ore
+* Building and Flying Ships (Haulers, Speeders, Warp Shuttles, Space-Only, PVP, VTOLs, Decorative/Role-play) 
+* Industry and Sales
+* Lua Programming
+* Role-Play: PVP, Rescue missions, Taxi, Hauling
+
+Places to go:
+
+* Voxel Libraries
+* Ship Shows
+* Markets
+* Community/Group Areas
+* Casinos
+* Mining (Safe-Zone)
+
 Early Game Skill Trees:
 
 * Atmo Piloting
@@ -33,6 +50,9 @@ Early Game Things to avoid:
 * PvP space
 * Speed limits in atmo
 * Unbalanced ships (overweight, lack of adjustors)
+* Selling intermediatry parts
+* Rockets
+* Using the Pipe to slow boat
 
 Ship building:
 
@@ -41,3 +61,13 @@ Ship building:
 * Hot keys
 * Adjustor Placement
 * Container Hub Placement
+
+Industry Building:
+
+* Math
+* More Math
+* Some more math, and a few basic rules of thumb.
+* Linking machines, and containers
+* Schematics
+* Transfer units
+* Starting Machines
