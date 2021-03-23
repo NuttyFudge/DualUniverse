@@ -69,6 +69,7 @@ Late game items (Tier 4 and Tier 5 aka Rare):
 Early Game Things to avoid:
 
 * Buying while in VR
+* Flying without radar
 * Harvesting rocks
 * Santurary Moon
 * Refining Ore and Industry with out talents.
