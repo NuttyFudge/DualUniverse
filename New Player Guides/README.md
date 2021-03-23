@@ -1,10 +1,20 @@
-Skill Tree:
+Early Game Skill Trees:
 
-1) Piloting
-2) Mining
-3) Industry
-4) Ship Building
-5) PvP
+* Atmo Piloting
+* Mining & Inventory
+
+Mid Game Skill Trees:
+
+* Space Piloting
+* Handling
+* Industry
+* Ship Building
+* PvP
+
+Late Game:
+
+* Weapon specialization
+* Radar specialization
 
 Overview of basic items:
 
@@ -23,3 +33,10 @@ Early Game Things to avoid:
 * PvP space
 * Speed limits in atmo
 * Unbalanced ships (overweight, lack of adjustors)
+
+
+Ship building:
+
+* Entering build mode
+* Skill Handling
+
