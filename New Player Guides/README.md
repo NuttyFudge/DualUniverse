@@ -56,6 +56,9 @@ Early Game Things to avoid:
 * Selling intermediatry parts
 * Rockets
 * Using the Pipe to slow boat
+* Flipping Items on the Market
+* Overpaying for schematics (don't buy what you can make in the nanocrafter)
+* Under cutting the market
 
 Ship building:
 
