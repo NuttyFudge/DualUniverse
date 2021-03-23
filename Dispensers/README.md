@@ -1,4 +1,4 @@
-Here are my tips & thoughts on selling from dispensers.
+Here are my tips & thoughts on selling from dispensers (written for DU Beta version 0.23)
 
 1) Set your RDMS for all dispensers (I add both of them listed) as a policy globally per player, construct or corp rather than setting up each dispenser with a tag + policy.
 2) Hide your containers & ask for someone to check permissions. If you mess up RDMS, then people can rip you off. 
@@ -13,7 +13,7 @@ Here are my tips & thoughts on selling from dispensers.
 11) Dispencers are great at selling ship blueprints, or even all of the parts in kit to build your ship.
 12) Claimed items cannot be sold from a dispenser.
 13) Dispencers do not have a LUA api to Set the price, Set the batch Size, Order
-14) Default options are crap. Limit 1 per, 
+14) Default options are crap. Limit 1 per, Time limit 5 seconds.
 15) A batch of whatever you sell is stored in the dispencer, consider the costs of this batch.
 
 WIP:
