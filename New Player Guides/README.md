@@ -4,7 +4,10 @@ Things to do in Dual Universe:
 * Building and Flying Ships (Haulers, Speeders, Warp Shuttles, Space-Only, PVP, VTOLs, Decorative/Role-play) 
 * Industry and Sales
 * Lua Programming
+* Running Organizations
+* Exploring
 * Role-Play: PVP, Rescue missions, Taxi, Hauling
+* Role-Play: Voxel Art
 
 Places to go:
 
