@@ -33,7 +33,8 @@ for i,machine in ipairs(machines) do
 		machine.startAndMaintain(batchsize + (i-1)*inc_batch)
           machine.start()
      end
- ```
+
      system.print("Slot"..i.." --- Status: "..machine.getStatus()
         .." --- Eff: "..machine.getEfficiency())
 end
+```
