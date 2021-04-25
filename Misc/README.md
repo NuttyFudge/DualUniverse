@@ -1,5 +1,45 @@
 ``` lua
 
-{"slots":{"0":{"name":"L1","type":{"events":[],"methods":[]}},"1":{"name":"L2","type":{"events":[],"methods":[]}},"2":{"name":"L3","type":{"events":[],"methods":[]}},"3":{"name":"L4","type":{"events":[],"methods":[]}},"4":{"name":"L5","type":{"events":[],"methods":[]}},"5":{"name":"L6","type":{"events":[],"methods":[]}},"6":{"name":"L7","type":{"events":[],"methods":[]}},"7":{"name":"L8","type":{"events":[],"methods":[]}},"8":{"name":"L9","type":{"events":[],"methods":[]}},"9":{"name":"L10","type":{"events":[],"methods":[]}},"-1":{"name":"unit","type":{"events":[],"methods":[]}},"-2":{"name":"system","type":{"events":[],"methods":[]}},"-3":{"name":"library","type":{"events":[],"methods":[]}}},"handlers":[{"code":"local r = 128 --export RED\nlocal g = 0 --export GREEN\nlocal b = 255 --export BLUE\n\nlight = {L1,L2,L3,L4,L5,L6,L7,L8,L9,L10}\nfor i=1,10 do      \n    light[i].setRGBColor(r,g,b)\n    light[i].activate()\nend\n","filter":{"args":[],"signature":"start()","slotKey":"-2"},"key":"0"},{"code":"local turn_off = False --export Turn off when program board stops\n\nif turn_off then\n\tlight = {L1,L2,L3,L4,L5,L6,L7,L8,L9,L10}\n\tfor i=1,10 do\n    \tlight[i].deactivate()\n\tend\nend","filter":{"args":[],"signature":"stop()","slotKey":"-2"},"key":"1"}],"methods":[],"events":[]}
+local r = 128 --export RED
+local g = 0 --export GREEN
+local b = 255 --export BLUE
+
+function test(r,g,b)
+    -- Known Bugs, your welcome NQ.
+    if r > 255 or r < 0 then
+        r = 0
+    end
+    if g > 255 or g < 0 then
+        g = 0
+    end
+    if b > 255 or b < 0 then
+        b = 0
+    end
+    light = {L1,L2,L3,L4,L5,L6,L7,L8,L9,L10}
+    for i=1,10 do 
+        if light[i] ~= nil then
+        	light[i].setRGBColor(r,g,b)
+        	light[i].activate()
+        end
+    end
+    return
+end
+
+if tick == nil then
+    tick = 0
+end
+
+tick = tick + 1
+
+if tick == 1 then
+   system.print("tick1")
+   test(r,g,b)
+end
+if tick == 2 then
+   system.print("tick2")
+   test(g,r,b)
+end
+
+unit.setTimer("n", 1)
 
 ```
