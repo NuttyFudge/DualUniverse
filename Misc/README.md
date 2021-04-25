@@ -15,6 +15,7 @@ local b = 255 --export BLUE
 
 function test(r,g,b)
     light = {L1,L2,L3,L4,L5,L6,L7,L8,L9,L10}
+    --light = {Slot1, Slot2, Slot3 (If you don't rename slots)
     for i=1,10 do 
         if light[i] ~= nil then
         	light[i].setRGBColor(r,g,b)
