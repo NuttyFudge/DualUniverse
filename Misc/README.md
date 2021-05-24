@@ -24,6 +24,11 @@ Unit Start
 
 unit.setTimer("n", 1)
 
+-OR-
+
+local tick_speed = 0.3 --export ticker speed
+unit.setTimer("n", tick_speed)
+
 ```
 
 Tick
