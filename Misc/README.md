@@ -31,7 +31,23 @@ unit.setTimer("n", tick_speed)
 
 ```
 
-Tick
+Unit Stop
+```
+local turn_off = true --export Turn off when program board stops
+
+if turn_off == true then
+	light = {L1,L2,L3,L4,L5,L6,L7,L8,L9,L10}
+	for i=1,10 do
+         if light[i] ~= nil then
+    		light[i].deactivate()
+         end
+	end
+end
+```
+
+
+Tick - This is where you get to have fun :D
+
 
 ``` lua 
 local r = 128 --export RED
