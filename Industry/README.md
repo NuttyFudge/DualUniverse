@@ -1,4 +1,24 @@
-# Simple Schematic Copy
+# About
+```
+With a program board, we can do some basic quality of life improvements for setting up industry. Also, this LUA could be used to check a group of machines but the included 
+status lights on the machines already do a good job of that.
+
+The main point of this script is to aid in starting (or restarting) machines using the same recipe.
+```
+
+# Setup
+```
+Step 1) Build a normal group of machines like any normal factory. 
+Step 2) Load the schematics like any normal factory. 
+Step 3) Start the first machine (this is required to get the schematic ID)
+Step 4) Link a program board to all machines running the same recipe (machines can be routed to different outputs)
+Step 5) Load the LUA, and start the program board. (The easiest way is to just copy the raw to the clipboard)
+Step 6) Change the LUA parameters if you'd like. Setting the batch size to zero should start all machines in run 'til full mode.
+Step 7) Start the program board a second time (know issue in timing)
+Step 8) Verify that the machines are all running.
+```
+
+# Simple Schematic Copy (Visual copy)
 
 ```lua
 system.start()
