@@ -1,6 +1,7 @@
 # About
 ```
-With a program board, we can do some basic quality of life improvements for setting up industry. Also, this LUA could be used to check a group of machines but the included 
+With a program board, we can do some basic quality of life improvements for setting up industry. 
+Also, this LUA could be used to check a group of machines but the included 
 status lights on the machines already do a good job of that.
 
 The main point of this script is to aid in starting (or restarting) machines using the same recipe.
