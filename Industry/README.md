@@ -22,9 +22,9 @@ Step 8) Verify that the machines are all running.
 # Simple Schematic Copy (Visual copy)
 
 ```lua
-system.start()
+This goes into : system.start() 
 
-local batchsize = 5000 --export How many to run
+local batchsize = 500 --export How many to run
 local inc_batch = 500 --export Stagger Machine Batch Size.
 local always_restart = True --export Use to ignore current machine status.
 
@@ -51,12 +51,16 @@ for i,machine in ipairs(machines) do
      if status == "STOPPED" or always_restart then
           --system.print("Starting Slot"..i)
 		machine.setCurrentSchematic(schematic)
-		machine.startAndMaintain(batchsize + (i-1)*inc_batch)
-          machine.start()
-     end
+		if batchsize > 0 then
+          	machine.startAndMaintain(batchsize + (i-1)*inc_batch)
+          else
+          	machine.start()
+          end
 
+        end
      system.print("Slot"..i.." --- Status: "..machine.getStatus()
         .." --- Eff: "..machine.getEfficiency())
 end
+
 unit.exit()
 ```
