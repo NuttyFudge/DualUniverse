@@ -5,7 +5,7 @@ system.start()
 
 local batchsize = 5000 --export How many to run
 local inc_batch = 500 --export Stagger Machine Batch Size.
-local always_restart = False --export Use to ignore current machine status.
+local always_restart = True --export Use to ignore current machine status.
 
 system.print("Batch Size: "..batchsize.." Stagger Batch "..inc_batch)
 
@@ -37,4 +37,5 @@ for i,machine in ipairs(machines) do
      system.print("Slot"..i.." --- Status: "..machine.getStatus()
         .." --- Eff: "..machine.getEfficiency())
 end
+unit.exit()
 ```
