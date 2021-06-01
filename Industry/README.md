@@ -16,6 +16,7 @@ ever started the machine so use with caution.
 # Bugs
 ```
 All machines don't reliably start via lua, but you can start the program 2 or 3 times and it should start all machines. 
+Not a bug, but the LUA is using the soft start method to avoid throwing anything away. If you want to reconfigure and the machines are jammed, then fix the jam then restart.
 ```
 
 # Setup
