@@ -7,6 +7,17 @@ status lights on the machines already do a good job of that.
 The main point of this script is to aid in starting (or restarting) machines using the same recipe.
 ```
 
+# Notes
+```
+You can start a machine via lua without talents. So if you do not have proficiency skills it will start. It will apply the talents, for whom 
+ever started the machine so use with caution.
+```
+
+# Bugs
+```
+All machines don't reliably start via lua, but you can start the program 2 or 3 times and it should start all machines. 
+```
+
 # Setup
 ```
 Step 1) Build a normal group of machines like any normal factory. 
