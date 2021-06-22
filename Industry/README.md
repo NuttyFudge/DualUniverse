@@ -1,3 +1,10 @@
+# Changes
+```
+0.2b - Industry machine startup rules. Basically running (don't do anything), not running, try to reload the schematic and restart the batch.
+0.2a - Smaller default batch sizes to better deal with S-containers. 
+0.1  - Nothing, its perfect.
+```
+
 # About
 ```
 With a program board, we can do some basic quality of life improvements for setting up industry. 
