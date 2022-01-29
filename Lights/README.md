@@ -1,3 +1,8 @@
+Usage:
+
+<a href="https://github.com/NuttyFudge/DualUniverse/blob/main/Lights/accel.JPG">Accel</a></p>
+<a href="https://github.com/NuttyFudge/DualUniverse/blob/main/Lights/brake.JPG">Brake</a></p>
+
 Cirucit Setup: 
 
 Step A) Link the following circuit: 1->2->3
