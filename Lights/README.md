@@ -41,6 +41,7 @@ local accel_upper = 20 --export
 local accel_lower = -20 --export
 
 function lights(r,g,b)
+    -- EDIT ME: Put in slot names for extra lights.
     light = {bl}
     for i=1,10 do 
         if light[i] ~= nil then
