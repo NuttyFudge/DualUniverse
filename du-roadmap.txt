@@ -1,0 +1,52 @@
+Tier 0: 
+* basic assembly line s
+* basic assembly line m (S0, maintain 1)
+* metalwork (M1, maintain 1)
+* electronics (M2, maintain 1)
+* basic assembly line l (M3)
+* Nanocraft: 625 Basic Processors, 2500 basic fixations
+* DSAT (L1) ---> 3k Quarts, 15k Bauxite, 16k Hematite, 10k Coal
+
+Roid Mining:
+* spend 4m on market ship
+* space core unit xs
+* bring: assembly line m, metalwork, electronics
+* craft chemical, space fuel for retrun trip
+* craft tank m, upgrade ship as desired
+* craft TCU: 
+* TCU (M0, mantain 5) ---> 1k Limestone, 2k Malachite, 1.5k Chromite + 1k Quarts, 1k Bauxite, 2k Hematite, 1k Coal
+
+Roid Mining 2:
+* chemical (M3) --> 1k Quarts, 2k Coal, 4k Baux, 4k Hema
+* glass (M3)
+* 3d printer (M2, temporary change)
+* smelter (M3)
+* refiner (M3)
+* mining unit S (SKIP if using DSAT)
+* mining unit L --> 1k Quarts, 2k Coal, 4k Baux, 4k Hema
+* recyler
+* transfer unit --> 1k Quarts, 2k Coal, 4k Baux, 2k Hema
+* Territory Scanner --> 15k Baux, 12k Hema, 9k Coal, 6k Mala, 11.5k Limestone, 5k Chromite
+
+Tier 1 (S-core, no container hub) Factories:
+
+* all basic industry -> reused for basic ship parts (tank m, engine L, adjustor L), reused for containers M/L
+* uncommon industry -> reworked for warp cell
+* mini-honeycomb shop
+
+Mini-Radio Shack A/B:
+* space fuel/warp cell -> reused for high tech items: container hub, surrogate pod, elevator, radar, force field
+
+Tier 1.5 (S-core with container hubs):
+* medium/large core space, static, dynamic
+
+Tier 2 (L-Core) Factories:
+* adv engines, warp drives
+
+Tier 3 (L-Space Core) Factories:
+* AGGs
+* warp beacon
+* Ammunation
+* Gas & Scrap Station
+* Omni-bonsaii (every element)
+
